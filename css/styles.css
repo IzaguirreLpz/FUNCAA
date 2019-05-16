@@ -7,7 +7,6 @@ body, html {
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,4 +92,12 @@ body{
 .impacto-content{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 320px) {
+
+    .Icons figure img {
+        width: 30px !important;
+    }
+
 }
