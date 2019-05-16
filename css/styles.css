@@ -94,6 +94,10 @@ body{
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.right{
+  text-align: right;
+}
+
 @media only screen and (max-width: 1520px) {
   .bgimg-1 {
       background-attachment: scroll;
@@ -114,6 +118,10 @@ body{
 
     .impacto-content{
       grid-template-columns: 1fr;
+    }
+
+    .right{
+      text-align: left;
     }
 
 }
