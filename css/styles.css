@@ -37,7 +37,7 @@ body, html {
 @media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
-    min-height: 400px;
+    min-height: 80%;
   }
 }
 
@@ -92,6 +92,14 @@ body{
 .impacto-content{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 1520px) {
+  .bgimg-1 {
+      background-attachment: scroll;
+      min-height: 80%;
+  }
+
 }
 
 @media only screen and (max-width: 425px) {
