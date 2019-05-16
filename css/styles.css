@@ -94,8 +94,8 @@ body{
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.right{
-  text-align: right;
+.text-center{
+  text-align: center;
 }
 
 @media only screen and (max-width: 1520px) {
@@ -120,7 +120,7 @@ body{
       grid-template-columns: 1fr;
     }
 
-    .right{
+    .text-center{
       text-align: left;
     }
 
