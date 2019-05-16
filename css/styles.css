@@ -94,10 +94,18 @@ body{
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media only screen and (max-width: 425px) {
+
+    .impacto-content{
+      grid-template-columns: 1fr 1fr;
+    }
+
+}
+
 @media only screen and (max-width: 320px) {
 
-    .Icons figure img {
-        width: 30px !important;
+    .impacto-content{
+      grid-template-columns: 1fr;
     }
 
 }
